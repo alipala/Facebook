@@ -20,7 +20,7 @@ reports.
 - [Slack](https://slack.com/intl/en-tr/)
 - [Faker](https://github.com/joke2k/faker)
 - [sqlite3](https://www.sqlite.org/download.html)
-- [GIT] (https://git-scm.com/downloads)
+- [GIT](https://git-scm.com/downloads)
 
 ## Methods
 ``` Python projects
