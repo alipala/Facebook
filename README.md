@@ -1,11 +1,13 @@
 # Test Automation Demo
 ``` Details
 This repository includes a functional UI testing and related pipeline from excuting test to serve the html reports. 
-It interacts with the web element by using Selenium Web Driver. It uses pytest framework. The credentials and 
-fake user details come from excel file to obtain the Data Driven Development. The automation framework serves the 
-report with Allure Report. [See the html report](http://agilehod.com/) The jenkins job notification assigned to 
-Slack channel: #facebook,  Slack workspace: themisworld.slack.com. Please provide your email to e notified when 
-the job is getting started and finished.
+It interacts with the web element by using Selenium Web Driver. 
+
+It uses pytest framework. The credentials and fake user details come from excel file to obtain the Data Driven Development.
+The automation framework serves the report with Allure Report. [See the html report](http://agilehod.com/) 
+
+The jenkins job notification assigned to Slack channel: #facebook,  Slack workspace: themisworld.slack.com. 
+Please provide your email to e notified when the job is getting started and finished.
 
 ``` 
 
