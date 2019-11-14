@@ -25,8 +25,6 @@ Please provide your email to e notified when the job is getting started and fini
 - [Allure Report](http://allure.qatools.ru/)
 - [Jenkins](https://updates.jenkins-ci.org/download/war/)
 - [Slack](https://slack.com/intl/en-tr/)
-- [Faker](https://github.com/joke2k/faker)
-- [sqlite3](https://www.sqlite.org/download.html)
 - [GIT](https://git-scm.com/downloads)
 
 ## Methods
