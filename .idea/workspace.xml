@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476fce98-ee34-46e4-87d5-e40b81479d95" name="Default Changelist" comment="" />
+    <list default="true" id="476fce98-ee34-46e4-87d5-e40b81479d95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Base/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,23 +20,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TTq7fGZlT3KHIfLxxyldAJExeb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../themis" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Base" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\_python\facebook\Tests" />
-      <recent name="D:\_python\facebook" />
-      <recent name="D:\_python\facebook\Drivers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\_python\facebook\Base" />
       <recent name="D:\_python\facebook\Tests" />
       <recent name="D:\_python\facebook\Drivers" />
       <recent name="D:\_python\facebook" />
       <recent name="D:\_python\facebook\Pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_python\facebook\Base" />
+      <recent name="D:\_python\facebook\Tests" />
+      <recent name="D:\_python\facebook" />
+      <recent name="D:\_python\facebook\Drivers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,5 +180,19 @@
       <updated>1573494266928</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

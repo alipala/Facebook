@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\n  Skipping 70 identical leading characters in diff, use -v to show\n  - pt=1&lwv=100\n  ?            -\n  + pt=1&lwv=110\n  ?           +",
+      "children" : [ {
+        "name" : "test_login_not_facebook_user",
+        "uid" : "297707defa3da0a4",
+        "parentUid" : "0e961dc6087a821684b6246b9908fa79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1573751592270,
+          "stop" : 1573751594839,
+          "duration" : 2569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e961dc6087a821684b6246b9908fa79"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,6 @@
+Initializing Chrome driver
+D:\_python\facebook\Base
+=================================
+Test started
+=================================
+Tests finished

@@ -1,0 +1,117 @@
+{
+  "7489bdc0fcec0101a3a436e5cfed74cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95a10f258d4f16a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751581526,
+        "stop" : 1573751582640,
+        "duration" : 1114
+      }
+    } ]
+  },
+  "3cc91c3bbb179c8a95d30c6482a1a8dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a60d5dbd1230acd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751551161,
+        "stop" : 1573751558020,
+        "duration" : 6859
+      }
+    } ]
+  },
+  "d8f2d98467a13c99b5204d95fec8d3f3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "297707defa3da0a4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\n  Skipping 70 identical leading characters in diff, use -v to show\n  - pt=1&lwv=100\n  ?            -\n  + pt=1&lwv=110\n  ?           +",
+      "time" : {
+        "start" : 1573751592270,
+        "stop" : 1573751594839,
+        "duration" : 2569
+      }
+    } ]
+  },
+  "c33356a0048e1f3643f5410d50f65877" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0a794a18d685288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751604826,
+        "stop" : 1573751617941,
+        "duration" : 13115
+      }
+    } ]
+  },
+  "95210e09e75a801d7d5464918f612182" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f55adb1fe3bddf34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751627652,
+        "stop" : 1573751632060,
+        "duration" : 4408
+      }
+    } ]
+  },
+  "8ff6ac48e5448537f79cf93866477ff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74a04dd93bf35b98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751567855,
+        "stop" : 1573751571876,
+        "duration" : 4021
+      }
+    } ]
+  }
+}

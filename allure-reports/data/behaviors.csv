@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Register Tests","Successful register","0","0","1","0","0"
+"","Login Tests","Failed login with empty email and password","0","0","1","0","0"
+"","Login Tests","Failed login with wrong password","0","0","1","0","0"
+"","Login Tests","Failed login with a user who has not an account","1","0","0","0","0"
+"","Login Tests","Successful login","0","0","1","0","0"
+"","Register Tests","Failed register","0","0","1","0","0"

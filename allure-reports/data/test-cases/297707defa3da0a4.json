@@ -1,0 +1,129 @@
+{
+  "uid" : "297707defa3da0a4",
+  "name" : "test_login_not_facebook_user",
+  "fullName" : "TestSuite.test_suite.TestLogin#test_login_not_facebook_user",
+  "historyId" : "d8f2d98467a13c99b5204d95fec8d3f3",
+  "time" : {
+    "start" : 1573751592270,
+    "stop" : 1573751594839,
+    "duration" : 2569
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\n  Skipping 70 identical leading characters in diff, use -v to show\n  - pt=1&lwv=100\n  ?            -\n  + pt=1&lwv=110\n  ?           +",
+  "statusTrace" : "self = <Tests.test_login.TestLogin object at 0x0D20DD30>\n\n    @allure.story('Failed login with a user who has not an account')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.testcase(name=\"Testcase:4\", url=__test_case_url)\n    def test_login_not_facebook_user(self):\n        try:\n            driver = self.driver\n            self.login_attempt(self.df.loc[6, \"mobile_email\"], self.df.loc[6, \"password\"])\n            cur_url = driver.current_url\n>           assert self.__expected_non_user_url == cur_url # It should be forwarded to url, if login failed\nE           AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\nE             Skipping 70 identical leading characters in diff, use -v to show\nE             - pt=1&lwv=100\nE             ?            -\nE             + pt=1&lwv=110\nE             ?           +\n\nTests\\test_login.py:88: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1573751588781,
+      "stop" : 1573751592270,
+      "duration" : 3489
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\n  Skipping 70 identical leading characters in diff, use -v to show\n  - pt=1&lwv=100\n  ?            -\n  + pt=1&lwv=110\n  ?           +",
+    "statusTrace" : "self = <Tests.test_login.TestLogin object at 0x0D20DD30>\n\n    @allure.story('Failed login with a user who has not an account')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.testcase(name=\"Testcase:4\", url=__test_case_url)\n    def test_login_not_facebook_user(self):\n        try:\n            driver = self.driver\n            self.login_attempt(self.df.loc[6, \"mobile_email\"], self.df.loc[6, \"password\"])\n            cur_url = driver.current_url\n>           assert self.__expected_non_user_url == cur_url # It should be forwarded to url, if login failed\nE           AssertionError: assert 'https://www....mpt=1&lwv=100' == 'https://www....mpt=1&lwv=110'\nE             Skipping 70 identical leading characters in diff, use -v to show\nE             - pt=1&lwv=100\nE             ?            -\nE             + pt=1&lwv=110\nE             ?           +\n\nTests\\test_login.py:88: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "660e0869e45b2bfd",
+      "name" : "screenshot",
+      "source" : "660e0869e45b2bfd.png",
+      "type" : "image/png",
+      "size" : 39993
+    }, {
+      "uid" : "895bee71fc570483",
+      "name" : "stdout",
+      "source" : "895bee71fc570483.txt",
+      "type" : "text/plain",
+      "size" : 148
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1573751594918,
+      "stop" : 1573751601282,
+      "duration" : 6364
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Failed login with a user who has not an account"
+  }, {
+    "name" : "feature",
+    "value" : "Login Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "EVT01757NB"
+  }, {
+    "name" : "thread",
+    "value" : "9108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.test_suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Testcase:4",
+    "url" : "https://www.facebook.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "297707defa3da0a4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "5a60d5dbd1230acd",
+  "name" : "test_login_success",
+  "time" : {
+    "start" : 1573751551161,
+    "stop" : 1573751558020,
+    "duration" : 6859
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f55adb1fe3bddf34",
+  "name" : "test_register_fail",
+  "time" : {
+    "start" : 1573751627652,
+    "stop" : 1573751632060,
+    "duration" : 4408
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "95a10f258d4f16a0",
+  "name" : "test_login_empty_credential",
+  "time" : {
+    "start" : 1573751581526,
+    "stop" : 1573751582640,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0a794a18d685288",
+  "name" : "test_register_success",
+  "time" : {
+    "start" : 1573751604826,
+    "stop" : 1573751617941,
+    "duration" : 13115
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "74a04dd93bf35b98",
+  "name" : "test_login_wrong_password",
+  "time" : {
+    "start" : 1573751567855,
+    "stop" : 1573751571876,
+    "duration" : 4021
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "297707defa3da0a4",
+  "name" : "test_login_not_facebook_user",
+  "time" : {
+    "start" : 1573751592270,
+    "stop" : 1573751594839,
+    "duration" : 2569
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

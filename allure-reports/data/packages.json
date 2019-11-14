@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestSuite.test_suite",
+    "children" : [ {
+      "name" : "test_login_success",
+      "uid" : "5a60d5dbd1230acd",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751551161,
+        "stop" : 1573751558020,
+        "duration" : 6859
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_wrong_password",
+      "uid" : "74a04dd93bf35b98",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751567855,
+        "stop" : 1573751571876,
+        "duration" : 4021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_empty_credential",
+      "uid" : "95a10f258d4f16a0",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751581526,
+        "stop" : 1573751582640,
+        "duration" : 1114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_not_facebook_user",
+      "uid" : "297707defa3da0a4",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "failed",
+      "time" : {
+        "start" : 1573751592270,
+        "stop" : 1573751594839,
+        "duration" : 2569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_register_success",
+      "uid" : "c0a794a18d685288",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751604826,
+        "stop" : 1573751617941,
+        "duration" : 13115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_register_fail",
+      "uid" : "f55adb1fe3bddf34",
+      "parentUid" : "0d9fdaa58ab6864499e301cf7e55a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573751627652,
+        "stop" : 1573751632060,
+        "duration" : 4408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestSuite.test_suite"
+  } ]
+}

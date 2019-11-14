@@ -1,0 +1,121 @@
+{
+  "uid" : "5a60d5dbd1230acd",
+  "name" : "test_login_success",
+  "fullName" : "TestSuite.test_suite.TestLogin#test_login_success",
+  "historyId" : "3cc91c3bbb179c8a95d30c6482a1a8dd",
+  "time" : {
+    "start" : 1573751551161,
+    "stop" : 1573751558020,
+    "duration" : 6859
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1573751547419,
+      "stop" : 1573751551159,
+      "duration" : 3740
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9a83c2e605fb1f2",
+      "name" : "screenshot",
+      "source" : "b9a83c2e605fb1f2.png",
+      "type" : "image/png",
+      "size" : 88593
+    }, {
+      "uid" : "b9063a6e7e6ece45",
+      "name" : "stdout",
+      "source" : "b9063a6e7e6ece45.txt",
+      "type" : "text/plain",
+      "size" : 148
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1573751558021,
+      "stop" : 1573751564194,
+      "duration" : 6173
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Successful login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Login Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "EVT01757NB"
+  }, {
+    "name" : "thread",
+    "value" : "9108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.test_suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Testcase:1",
+    "url" : "https://www.facebook.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a60d5dbd1230acd.json",
+  "parameterValues" : [ ]
+}

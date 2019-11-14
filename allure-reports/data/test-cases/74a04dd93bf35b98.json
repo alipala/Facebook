@@ -1,0 +1,115 @@
+{
+  "uid" : "74a04dd93bf35b98",
+  "name" : "test_login_wrong_password",
+  "fullName" : "TestSuite.test_suite.TestLogin#test_login_wrong_password",
+  "historyId" : "8ff6ac48e5448537f79cf93866477ff1",
+  "time" : {
+    "start" : 1573751567855,
+    "stop" : 1573751571876,
+    "duration" : 4021
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "set_up",
+    "time" : {
+      "start" : 1573751564204,
+      "stop" : 1573751567854,
+      "duration" : 3650
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f476dd79d874085",
+      "name" : "stdout",
+      "source" : "5f476dd79d874085.txt",
+      "type" : "text/plain",
+      "size" : 148
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "set_up::0",
+    "time" : {
+      "start" : 1573751571877,
+      "stop" : 1573751578004,
+      "duration" : 6127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Failed login with wrong password"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Login Tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "EVT01757NB"
+  }, {
+    "name" : "thread",
+    "value" : "9108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestSuite.test_suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Testcase:2",
+    "url" : "https://www.facebook.com",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74a04dd93bf35b98.json",
+  "parameterValues" : [ ]
+}

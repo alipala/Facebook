@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 14 20:13:24 EET 2019","Thu Nov 14 20:13:37 EET 2019","13115","TestSuite","test_suite","TestRegister","","","test_register_success",""
+"passed","Thu Nov 14 20:13:01 EET 2019","Thu Nov 14 20:13:02 EET 2019","1114","TestSuite","test_suite","TestLogin","","","test_login_empty_credential",""
+"passed","Thu Nov 14 20:12:47 EET 2019","Thu Nov 14 20:12:51 EET 2019","4021","TestSuite","test_suite","TestLogin","","","test_login_wrong_password",""
+"failed","Thu Nov 14 20:13:12 EET 2019","Thu Nov 14 20:13:14 EET 2019","2569","TestSuite","test_suite","TestLogin","","","test_login_not_facebook_user",""
+"passed","Thu Nov 14 20:12:31 EET 2019","Thu Nov 14 20:12:38 EET 2019","6859","TestSuite","test_suite","TestLogin","","","test_login_success",""
+"passed","Thu Nov 14 20:13:47 EET 2019","Thu Nov 14 20:13:52 EET 2019","4408","TestSuite","test_suite","TestRegister","","","test_register_fail",""
