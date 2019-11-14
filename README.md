@@ -1,7 +1,10 @@
 # Test Automation Demo
 ``` Details
-This repository includes a functional UI testing and related pipeline from excuting test to serve the html 
-reports. It interacts with the web element by using Selenium Web Driver. It uses pytest framework. The credentials and fake user details come from excel file to obtain the Data Driven Development. The automation framework serves the report with Allure Report. [See the reports in] (http://agilehod.com/)
+This repository includes a functional UI testing and related pipeline from excuting test to 
+serve the html reports. It interacts with the web element by using Selenium Web Driver. 
+It uses pytest framework. The credentials and fake user details come from excel file to 
+obtain the Data Driven Development. The automation framework serves the report with Allure Report. 
+[See the html report](http://agilehod.com/)
 ``` 
 
 ## Python Project
